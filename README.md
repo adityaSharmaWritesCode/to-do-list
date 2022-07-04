@@ -1,5 +1,5 @@
 # to-do-list
 
-This web application is capable of taking user input in the form of notes. It also requires each note to have a header and can store and display a list of already existing notes. This project was built using basic HTML, CSS & JavaScript elements.
+A web application I built to serve as an interactive to-do list. It has the all the required functionalities - displaying list of tasks already entered, highlighting the text area on focus, striking the items on the to-do list to mark it as done, as well as deleting finished tasks. The application was built using HTML, CSS & JavaScript.
 
-Demo Link - 
+Demo Link - https://youtu.be/LsJFXcn8I5E
