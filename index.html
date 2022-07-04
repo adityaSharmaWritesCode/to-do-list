@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2019UCO1678 - To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 style="text-decoration: underline;">MY TO-DO LIST</h1>
+<hr/><br/>
+<form>
+<textarea name="para" id="newTask" rows="1" cols="100" maxlength="98"
+style="height: 22px;" placeholder="Enter New Task" value="null"></textarea>
+<br/>
+<input type="button" id="addTask" value="Add Task"/>
+</form>
+<br/><hr/>
+<div id="listHeader" style="display: none;">
+<h2>Task List</h2>
+<ul id="tasksList"> </ul>
+<span><input type="button" id="deleteTask" value="Delete Task"></span>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
